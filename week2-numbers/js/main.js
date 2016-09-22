@@ -10,10 +10,12 @@ var colors=[
 var col=0;
 var a=1;
 function getNumber(event){
-
+	var e = document.getElementById("theSelect");
+	// var strUser = e.options[e.selectedIndex].value;
 	var val = document.getElementById('theInput').value;
+	var t = e.options[e.selectedIndex].value;
 
-	if(val!=null) callAPI(val,type);
+	if(val!=null) callAPI(val,t);
 }
 
 function callAPI(num,type){
