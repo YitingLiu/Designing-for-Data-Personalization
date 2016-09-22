@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Numbers</title>
+
+    <!-- Custom Font -->
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-3">
+    <select id='theSelect'>
+      <option value="trivia">Trivia</option>
+      <option value="math">Math</option>
+      <option value="date">Date(month/day)</option>
+      <option value="year">Year</option>
+      </select>
+      </div>
+    <div class="col-md-9">
+      <input id="theInput" placeholder="Type to Add a Number" autofocus>
+    </div>
+
+  <div class="row" id="card-holder"> 
+  </div>
+
+</div>
+  </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- OUR JS -->
+    <script src="js/main.js"></script>
+</html>

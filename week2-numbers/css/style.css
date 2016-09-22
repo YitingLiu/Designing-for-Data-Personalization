@@ -1,0 +1,100 @@
+/**************/
+/* Custom CSS */
+/**************/
+
+body {
+	background: #2D2D31;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+}
+
+input{
+  padding: 15px;
+  padding-left: 30px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  font-size: 50px;
+  color: #fff;	
+}
+
+select{
+  /*padding: 15px;*/
+  margin-top: 30px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.1);
+  border: none;
+/*  border-bottom: 1px solid rgba(255,255,255,0.3);
+*/  font-size: 50px;
+  color: #fff;  
+}
+
+.centered{
+	text-align: center;
+}
+
+#card-holder{
+	margin-top: 50px;
+}
+
+.card-container {
+	margin-bottom: 30px;
+}
+
+.card {
+		padding: 25px;
+    background: #fefefe;
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    box-shadow: 0 2px 3px rgba(0,0,0,.05);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 30px
+    padding-right: 30px
+    height: 300px;	
+}
+
+.card h1{
+  text-align: right;
+  font-size: 50px;
+}
+
+.card h2 {
+    text-align: left;
+  font-size: 20px;
+
+  margin: 0;
+  margin-top: 10px;
+}
+
+/***************************/
+/* Default Form Input Code */
+/***************************/
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
