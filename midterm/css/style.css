@@ -1,0 +1,165 @@
+.market div img{
+	max-width: 150px;, 
+	height: auto;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.market div:hover img{
+	opacity: .5;
+}
+
+.market div .im{
+    background-color: black;
+    border-radius: 100%;
+}
+
+.market div p {
+	opacity:0;
+}
+
+.ny{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sz{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.market div:hover p{
+	opacity:1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.market div .glyphicon-shopping-cart {
+	color:white;
+    opacity:0;
+	font-size: 50px;
+	position: absolute;
+	top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.market div:hover .glyphicon-shopping-cart{
+    opacity:1;
+    text-shadow: 1px 1px 4px #444;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+[class*="col-"] {
+	margin-top:15px;
+    margin-bottom: 15px;
+}
+
+
+.trans img,
+.rent img {
+    max-width: 150px;
+    height: auto;
+    opacity: 1;
+}
+
+.trans_img .glyphicon-shopping-cart,
+.rent_img .glyphicon-shopping-cart{
+    color:white;
+    opacity:0;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trans_img div:hover .glyphicon-shopping-cart,
+.rent_img div:hover .glyphicon-shopping-cart{
+    opacity:1;
+    text-shadow: 1px 1px 4px #444;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.trans_img div:hover img,
+.rent_img div:hover img{
+    opacity: .5;;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+#myNav{
+    background-color: #444;
+    border:none;
+    height:150px;
+}
+
+#result {
+    opacity: 0;
+    color:white; 
+    font-size:40px;
+}
+
+body {
+    padding-bottom:150px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+h1 {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 50px;
+    color:#EA385F;
+}
+
+p{
+    color: #222;
+}
+
+
+ /*-------------5 columns-------------*/
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
